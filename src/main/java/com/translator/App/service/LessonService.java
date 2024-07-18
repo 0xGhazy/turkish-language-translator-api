@@ -1,7 +1,5 @@
 package com.translator.App.service;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.translator.App.controller.AuthController;
 import com.translator.App.domain.Lesson;
 import com.translator.App.exception.ResourceNotFound;
 import com.translator.App.repository.LessonRepository;

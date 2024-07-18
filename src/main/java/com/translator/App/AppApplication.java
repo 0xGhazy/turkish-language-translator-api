@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @OpenAPIDefinition(
 		info = @Info(title = "Translation App API",
-				version = "3.0.0",
+				version = "1.0.0",
 				contact = @Contact(name = "Hossam Hamdy", email = "hhamdypro@gmail.com")))
 public class AppApplication {
 

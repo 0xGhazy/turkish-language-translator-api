@@ -43,18 +43,5 @@ public class RuleController {
         return new ResponseEntity<>(response.jsonfy(), response.getStatusCode());
     }
 
-    @PatchMapping("/{id}")
-    public ResponseEntity<?> updateLesson(@PathVariable String id, @RequestBody RuleLesson ruleLesson)
-    {
-        Response response = service._updateLesson(ruleLesson, id);
-        return new ResponseEntity<>(response.jsonfy(), response.getStatusCode());
-    }
-
-    @DeleteMapping("/{id}")
-    public ResponseEntity<?> deleteLesson(@PathVariable String id)
-    {
-        Response response = service._deleteRuleLesson(id);
-        return new ResponseEntity<>(response.jsonfy(), response.getStatusCode());
-    }
 
 }
