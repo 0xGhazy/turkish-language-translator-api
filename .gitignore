@@ -31,7 +31,4 @@ build/
 
 ## My ignore files
 /target
-*.cfg
 /src/test
-Dockerfile
-pom.xml
