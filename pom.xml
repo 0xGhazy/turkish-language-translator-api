@@ -16,7 +16,7 @@
 	<name>App</name>
 	<description>Translator application API</description>
 	<properties>
-		<java.version>20</java.version>
+		<java.version>17</java.version>
 		<log4j.version>2.21.0</log4j.version>
 	</properties>
 	<dependencies>
